@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.home {
+    min-height: calc(100vh - 70px);
+}
+
+.hero {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.greeting {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin: 10px 0 20px;
+}
+
+.hero h1 span {
+    color: #2563eb;
+}
+
+.intro-text,
+.skills-text {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.hero-buttons a {
+    padding: 12px 24px;
+    border: none;
+
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-buttons button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-buttons button:hover,
+.hero-buttons a:hover {
+    background-color: #1d4ed8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fb;
+    color: #222;
+}
