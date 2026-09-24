@@ -2,7 +2,7 @@ import './contact.css';
 import {
     FaWhatsapp,
     FaInstagram,
-    FaFacebook,
+     
     FaLinkedin,
     FaGithub
 } from "react-icons/fa";
